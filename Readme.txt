@@ -16,3 +16,11 @@ Changed SnippetSerializer to ModelSerializer class
 
 Created view that supports listing all existing snippers or creating a new snippet
 Created view that can be used to retrieve, update or delete a snippet
+
+Tutorial 2: Requests and Responses
+Wrote improved views
+Added format suffixes to URLs
+
+Tutorial 3: Class-based Views
+Rewrote API using class-based views
+Made views.py code shorter/cleaner
