@@ -30,3 +30,19 @@ Added pagination
 Tutorial 6:
 Replaced Views with Viewsets
 Used Router to design URL config
+
+
+HTTP requests
+DELETE: http -a User1:123 DELETE http://127.0.0.1:8000/snippets/8/
+GET: http GET http://127.0.0.1:8000/snippets/2/
+HEAD:http -a User1:123 HEAD http://127.0.0.1:8000/snippets/
+OPTIONS:http OPTIONS http://127.0.0.1:8000/snippets/
+PATCH: http -a User1:123 PATCH http://127.0.0.1:8000/snippets/2/ title="mehh"
+POST: http -a User1:123 POST http://127.0.0.1:8000/snippets/ code="print(hello)"
+PUT: http -a User1:123 PUT http://127.0.0.1:8000/snippets/1/ code="print(blahh)"
+
+Usernames and passwords:
+User1:123
+User2:123
+User3:123
+
