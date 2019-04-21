@@ -4,8 +4,6 @@ Installed django, restframework and pygments
 Created new project
 Added new apps (snippet and rest_framework)
 Created Snippet model to store code snippets
-Created initial migration for snippet model
-Defined SnippetSerializer class
 Made snippet instances and used SnippetSerializer to serialize and deserialize them
 Changed SnippetSerializer to ModelSerializer class
 Created view that supports listing all existing snippers or creating a new snippet
@@ -28,3 +26,7 @@ Only allowed owners to delete/edit their code snippets
 Tutorial 5:
 Created a home page with links to user list and snippet list
 Added pagination
+
+Tutorial 6:
+Replaced Views with Viewsets
+Used Router to design URL config
