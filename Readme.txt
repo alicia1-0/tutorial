@@ -25,3 +25,6 @@ Created UserList and UserDetail views
 Added 'owner' field to SnippetList and SnippetDetail
 Only allowed owners to delete/edit their code snippets
 
+Tutorial 5:
+Created a home page with links to user list and snippet list
+Added pagination
